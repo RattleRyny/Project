@@ -59,7 +59,7 @@ hr {
     margin-inline: 10px;
     border-radius: 5px;
 }
-main {
+.index{
     background-image: url(../assets/guitar.png);
     background-color: transparent;
     background-repeat: no-repeat;
@@ -133,4 +133,7 @@ main {
 .button:hover {
     background-color: #275A8C;
 }
-
+footer {
+    text-align: center;
+    font-size: 120%;
+}
