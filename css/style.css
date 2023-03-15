@@ -1,0 +1,136 @@
+body {
+    background-color: #5CDB95;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+.main-menu {
+    margin:0px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.logo {
+    display: flex;
+}
+.logo-img {
+    width:auto;
+    height: 100px;
+    margin: 0px;
+    display: inline-block;
+}
+.logo-text {
+    text-decoration: none;
+    color: #05386B;
+    font-size: 300%;
+    font-weight: bold;
+    display: inline-block;
+}
+.main-menu nav {
+    margin-block: auto;
+}
+.main-menu ul {
+    list-style-type: none;    
+    margin: 0px;
+    padding: 0px;
+    display: flex;   
+}
+.main-menu li {
+    margin: 5px;
+    margin-inline: 30px;
+}
+.main-menu li a:hover {
+    color: #275A8C;
+}
+.main-menu li:last-child {
+    margin-right: 30px;
+}
+.main-menu ul a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: #05386B;
+    font-size: 200%;
+}
+hr {
+    background-color: #05386B;
+    height:5px;
+    border: 0px;
+    margin-inline: 10px;
+    border-radius: 5px;
+}
+main {
+    background-image: url(../assets/guitar.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: top ;
+    height:800px;
+    display: flex;
+    font-family: sans-serif;
+}
+.headline {
+    width:60%;
+    display: inline-block;
+    margin: 50px;
+    margin-top: 125px;
+    
+}
+.headline h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: 250%;
+    width:50%;
+    justify-content: center;
+    margin: auto;
+}
+.headline h2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 140%;
+    display: flex;
+    justify-content: right;
+    margin-right: 25%;
+}
+
+.email h1 {
+    margin-top: 80px;
+    color: #05386B;
+    font-weight: bold;
+}
+.email ul {
+    color:#05386B;
+    font-size: 150%;
+}
+.email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto ;
+    margin-top: 100px;
+}
+.email-form label {
+    color: #05386B;
+    font-size: 150%;
+}
+.email-form input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border:3px solid #05386B;
+    text-align: left;
+    width: 350px;
+}
+.button {
+    font-family: sans-serif;
+    background-color: #05386B;
+    color: aliceblue;
+    border:0px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 4px;
+}
+.button:hover {
+    background-color: #275A8C;
+}
+
