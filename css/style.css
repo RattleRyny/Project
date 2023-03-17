@@ -56,7 +56,7 @@ hr {
     background-color: #05386B;
     height:5px;
     border: 0px;
-    margin-inline: 10px;
+    margin-inline: auto;
     border-radius: 5px;
 }
 .index{
@@ -64,8 +64,9 @@ hr {
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: top ;
-    height:800px;
+    background-size: auto 100%;
     display: flex;
+    height:fit-content;
     font-family: sans-serif;
 }
 .headline {
@@ -77,7 +78,7 @@ hr {
 }
 .headline h1{
     text-align: center;
-    color: white;
+    color: #EDF5E1;
     font-family: sans-serif;
     font-size: 250%;
     width:50%;
@@ -85,7 +86,7 @@ hr {
     margin: auto;
 }
 .headline h2 {
-    color: white;
+    color: #EDF5E1;
     font-family: sans-serif;
     font-size: 140%;
     display: flex;
@@ -121,6 +122,7 @@ hr {
     text-align: left;
     width: 350px;
 }
+
 .button {
     font-family: sans-serif;
     background-color: #05386B;
@@ -136,4 +138,44 @@ hr {
 footer {
     text-align: center;
     font-size: 120%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.title {
+    justify-content: center;
+    display: flex;
+    color: #05386B;
+    font-family: sans-serif;
+    font-size: 400%;
+    margin: 30px;
+    font-weight: bold;
+}
+.quote {
+    text-align: center;
+    color: #EDF5E1;
+    font-family: sans-serif;
+    font-size: 350%;
+}
+.quotee{
+    text-align: center;
+    color: #EDF5E1;
+    font-family: sans-serif;
+    font-size: 140%;
+    margin-left: 20%;
+}
+.instrument-description {
+    margin-left: 10%;
+    font-size: 120%;
+    color:#05386B;
+    font-weight: bold;
+    text-align: center;
+    width:40%;
+}
+.instrument-img {
+    float:right;
+    display:inline-flex;
+    width:500px
 }
