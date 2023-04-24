@@ -1,8 +1,15 @@
-var menu = document.getElementById('menu');
-var burger = document.getElementById('menu-button');
-var burgerMenuList = burgerMenuList.getElementById('burgerMenuList')
 
-burger.addEventListener("click", function() {
-    burgerMenuList.style.position = 'absolute';
-    burgerMenuList.style.right = '0px';
-} )
+var burger = document.getElementById('menuButton');
+var burgerMenuList = document.getElementById('burgerMenuList');
+
+burger.addEventListener('click', function() {
+    if(burgerMenuList.style.right == '-1000px') {
+        burgerMenuList.style.right = '0px';
+        burger.style.marginRight = '250px';
+    }
+    else {
+        burgerMenuList.style.right = '-1000px';
+        burger.style.marginRight = '0px';
+    }
+    
+});
