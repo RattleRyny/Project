@@ -59,17 +59,17 @@ hr {
     margin-inline: auto;
     border-radius: 5px;
 }
-.index{
-    background-image: url(../assets/guitar.png);
-    background-color: transparent;
-    background-repeat: no-repeat;
-    background-position: top ;
-    background-size: auto 100%;
+main{
     display: flex;
     height:fit-content;
     font-family: sans-serif;
 }
 .headline {
+    background-image: url(../assets/guitar.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: top ;
+    background-size: auto 100%;
     width:60%;
     display: inline-block;
     margin: 50px;
@@ -138,7 +138,6 @@ hr {
 footer {
     text-align: center;
     font-size: 120%;
-    position: absolute;
     bottom: 0;
     width: 100%;
     height: 50px;
@@ -178,4 +177,15 @@ footer {
     float:right;
     display:inline-flex;
     width:500px
+}
+@media (max-width:1400px) {
+    main {
+        flex-direction: column;
+    }
+    .headline {
+        width: 100%;
+    }
+    .email {
+        margin: auto;
+    }
 }
