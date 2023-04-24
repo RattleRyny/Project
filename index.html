@@ -8,7 +8,8 @@
     <link rel="icon" href="assets/icon.png">
 
     <link rel="stylesheet" href="css/style.css">
-    <style defer href="js/email.js"></style>     
+    <style defer href="js/email.js"></style>  
+    <style defer href="js/burgerMenu.js"></style>   
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,16 +17,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body >
-    <header>
+    <nav class="burgerMenuList">
+        <ul id="menu">
+            <li><a href="strings.html">Strings</a></li>
+            <li><a href="percussion.html">Percussion</a></li>
+            <li><a href="brass.html">Brass</a></li>
+            <li><a href="woodwind.html">Woodwind</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <div class="fixer">
         <hr>
+    </div>      
+    <header>
+        
         <div class="main-menu">
             <div class="logo">
                 <a href="/"><img class="logo-img" src="assets/icon.png" alt="icon"></a>
                 <a class ="logo-text" href="index.html">Musical<br>Instruments</a>
             </div>
-            <button type="checkbox" class="fa-solid fa-bars" id="menu-button"></button>
+            <div class="burger-section">
+                <button type="checkbox" class=" burger fa-solid fa-bars" id="menu-button"></button>
+            </div>
             <nav>
-                <ul>
+                <ul id="menu">
                     <li><a href="strings.html">Strings</a></li>
                     <li><a href="percussion.html">Percussion</a></li>
                     <li><a href="brass.html">Brass</a></li>
@@ -34,8 +49,11 @@
                 </ul>
             </nav>
         </div>
-        <hr>
+        
     </header>
+    <div class="fixer">
+        <hr>
+    </div>
     <main>
         
         <section class="headline">
@@ -64,5 +82,7 @@
     <footer>
         &copy YnyrDavies
     </footer>
+    
+</script>
 </body>
 </html>

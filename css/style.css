@@ -58,6 +58,10 @@ hr {
     border: 0px;
     margin-inline: auto;
     border-radius: 5px;
+    width:100%;
+}
+.fixer {
+    min-width: 400px;
 }
 main{
     display: flex;
@@ -178,14 +182,103 @@ footer {
     display:inline-flex;
     width:500px
 }
-@media (max-width:1400px) {
+.burger {
+    visibility: hidden;
+    color: #05386B;
+    font-size: 40px;
+    background-color: transparent;
+    border-color: transparent;
+    height: 0px;
+    
+}
+.burger:hover {
+    color: #275A8C;
+}
+.burger-section {
+    margin:auto;
+    margin-right: 0px; 
+    text-align: right;
+}
+
+.burgerMenuList {  
+    position: absolute;
+    right:-1000px;
+    background-color: rgba(5, 56, 107,1);
+    height: 100%;
+    
+}
+.burgerMenuList nav {
+    margin-block: auto;
+}
+.burgerMenuList ul {
+    list-style-type: none;    
+    margin: 0px;
+    padding: 0px; 
+}
+.burgerMenuList li {
+    margin: 5px;
+    margin-inline: 30px;
+}
+.burgerMenuList li a:hover {
+    color: #275A8C;
+}
+.burgerMenuList ul a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+}
+
+@media (max-width:1300px) {
     main {
         flex-direction: column;
     }
     .headline {
+        margin:auto;
+        margin-top:50px;
+        margin-bottom: 30px;
         width: 100%;
+        font-size: 100%;
     }
     .email {
         margin: auto;
+        font-size: 100%;
     }
+    .email-form input {
+        width: 200px;
+    }
+    .main-menu li {
+        display:none;
+    }
+    .burger {
+        visibility: visible;
+        margin-left:auto;
+    }
+    .burgerMenuList { 
+        /* position: absolute;
+        right:0px; */
+
+    }
+    
+}
+@media (max-width:1400px) and (min-width: 1301px) {
+    main {
+        flex-direction: column;
+    }
+    .headline {
+        margin:auto;
+        margin-top:50px;
+        margin-bottom: 30px;
+        width: 100%;
+        font-size: 120%;
+    }
+    .email {
+        margin: auto;
+        font-size: 120%;
+    }
+    .email-form input {
+        width: 240px;
+    }
+   
 }
