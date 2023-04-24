@@ -1,9 +1,9 @@
-
 var burger = document.getElementById('menuButton');
 var burgerMenuList = document.getElementById('burgerMenuList');
 
+
 burger.addEventListener('click', function() {
-    if(burgerMenuList.style.right == '-1000px') {
+    if(getComputedStyle(burgerMenuList, null).right == '-1000px') {
         burgerMenuList.style.right = '0px';
         burger.style.marginRight = '250px';
     }
@@ -11,5 +11,4 @@ burger.addEventListener('click', function() {
         burgerMenuList.style.right = '-1000px';
         burger.style.marginRight = '0px';
     }
-    
 });

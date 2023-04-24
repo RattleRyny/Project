@@ -8,7 +8,8 @@
     <link rel="icon" href="assets/icon.png">
 
     <link rel="stylesheet" href="css/style.css">
-    <script defer type="text/javascript" src="js/email.js"></script>  
+    <link rel="stylesheet" href="css/carousel.css">
+    <script defer type="text/javascript" src="js/carousel.js"></script>
     <script defer type="text/javascript" src="js/burgerMenu.js"></script>   
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -76,7 +77,22 @@
                 </button>
             </form>
         </div> 
+        
     </main>
+    <div class="carousel">
+        <div class="carousel">
+            <nav>
+              <a href="#" id="carouselPrev">&#x2B05;</a> <!-- &lt; is the < symbol -->
+              <a href="#" id="carouselNext">&#x2B95;</a> <!-- &gt; is the > symbol -->
+            </nav>
+            
+            <!-- Carousel image container -->
+            <div class="carousel-images" id="carouselImages"></div>
+            
+            <!-- Carousel image captions -->
+            <p class="carousel-caption" id="carouselCaption"></p>
+          </div>
+    </div>
     <footer>
         &copy YnyrDavies
     </footer>

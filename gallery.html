@@ -8,22 +8,39 @@
     <link rel="icon" href="assets/icon.png">
 
     <link rel="stylesheet" href="css/style.css">
-    <style defer href="js/email.js"></style>     
+    <script defer type="text/javascript" src="js/email.js"></script>  
+    <script defer type="text/javascript" src="js/burgerMenu.js"></script>   
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <header>
+<body >
+    <nav class="burgerMenuList" id="burgerMenuList">
+        <ul id="menu">
+            <li><a href="strings.html">Strings</a></li>
+            <li><a href="percussion.html">Percussion</a></li>
+            <li><a href="brass.html">Brass</a></li>
+            <li><a href="woodwind.html">Woodwind</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <div class="fixer">
         <hr>
+    </div>      
+    <header>
+        
         <div class="main-menu">
             <div class="logo">
                 <a href="/"><img class="logo-img" src="assets/icon.png" alt="icon"></a>
                 <a class ="logo-text" href="index.html">Musical<br>Instruments</a>
             </div>
+            <div class="burger-section">
+                <button type="checkbox" class="burger fa-solid fa-bars" id="menuButton"></button>
+            </div>
             <nav>
-                <ul>
+                <ul id="menu">
                     <li><a href="strings.html">Strings</a></li>
                     <li><a href="percussion.html">Percussion</a></li>
                     <li><a href="brass.html">Brass</a></li>
@@ -31,13 +48,39 @@
                     <li><a href="gallery.html">Gallery</a></li>
                 </ul>
             </nav>
-        </div>
-        <hr>
+        </div>        
     </header>
-    <main>
+    <div class="fixer">
+        <hr>
+    </div>
+    <main>        
+        <section class="headline">
+            <h1 class="quote">It's easy to play any musical instrument,<br> all you have to do is touch the right key at the right time and the instrument will play itself.</h1>
+            <h2 class="quotee">-Johann Sebastian Bach</h2>
+        </section>
+        <div class = "email">
+            <h1>We send weekly info on email about:</h1>
+            <ul class ="email-info">
+                <li>Deals we've found just for you!</li>
+                <li>Tips and tricks about ALL types of instruments!</li>
+                <li>Information about popular artist and bands!</li>
+                <li>Free music copies and tabs!</li>
+                <li>Videos by professionals talking through high level skills</li>
+            </ul>
+            <form class="email-form">
+                <label for="email">Register your interest in our mailing list:</label>
+                <input type="text" id="emailForm" class="email-form" placeholder="Email"/>
+                <button type="submit" class="button" id="addEmail">
+                    <i class="fas fa-plus"></i>
+                    <span>Register Email</span>
+                </button>
+            </form>
+        </div> 
     </main>
     <footer>
         &copy YnyrDavies
     </footer>
+    
+</script>
 </body>
 </html>

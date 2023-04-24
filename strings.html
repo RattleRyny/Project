@@ -5,24 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Musical Instruments | Home </title>
+    <link rel="icon" href="assets/icon.png">
 
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="assets/icon.png">
+    <script defer type="text/javascript" src="js/email.js"></script>  
+    <script defer type="text/javascript" src="js/burgerMenu.js"></script>   
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    <header>
+<body >
+    <nav class="burgerMenuList" id="burgerMenuList">
+        <ul id="menu">
+            <li><a href="strings.html">Strings</a></li>
+            <li><a href="percussion.html">Percussion</a></li>
+            <li><a href="brass.html">Brass</a></li>
+            <li><a href="woodwind.html">Woodwind</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <div class="fixer">
         <hr>
+    </div>      
+    <header>
+        
         <div class="main-menu">
             <div class="logo">
                 <a href="/"><img class="logo-img" src="assets/icon.png" alt="icon"></a>
                 <a class ="logo-text" href="index.html">Musical<br>Instruments</a>
             </div>
+            <div class="burger-section">
+                <button type="checkbox" class="burger fa-solid fa-bars" id="menuButton"></button>
+            </div>
             <nav>
-                <ul>
+                <ul id="menu">
                     <li><a href="strings.html">Strings</a></li>
                     <li><a href="percussion.html">Percussion</a></li>
                     <li><a href="brass.html">Brass</a></li>
@@ -30,10 +48,12 @@
                     <li><a href="gallery.html">Gallery</a></li>
                 </ul>
             </nav>
-        </div>
-        <hr>
+        </div>        
     </header>
-    <main class="guitar">
+    <div class="fixer">
+        <hr>
+    </div>
+    <main>        
         <h1 class="title">The Guitar</h1>
         <h2 class="quote">The guitar has a kind of grit <br>and excitement possessed<br> by nothing else.</h2>
         <h2 class="quotee">- Brian May</h2>
@@ -45,11 +65,12 @@
                 The sound of the guitar is projected either acoustically, by means of a resonant chamber on the instrument, or amplified by an electronic pickup and an amplifier
                 <a target="_blank" href="https://en.wikipedia.org/wiki/Guitar#:~:text=The%20guitar%20is%20a%20fretted,fingers%20of%20the%20opposite%20hand.">[1].</a>
             </p>
-        </section>
-        <img class="instrument-img" src="assets/realisticGuitar.png" alt="icon">
+        </section> 
     </main>
     <footer>
         &copy YnyrDavies
     </footer>
+    
+</script>
 </body>
 </html>
