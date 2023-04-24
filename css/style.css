@@ -228,6 +228,7 @@ footer {
     text-decoration: none;
     color: white;
     font-size: 200%;
+    
 }
 
 @media (max-width:1300px) {
@@ -255,13 +256,12 @@ footer {
         visibility: visible;
         margin-left:auto;
     }
-    .burgerMenuList { 
+    /* .burgerMenuList { 
         /* position: absolute;
         right:0px; */
 
-    }
-    
-}
+} 
+
 @media (max-width:1400px) and (min-width: 1301px) {
     main {
         flex-direction: column;
