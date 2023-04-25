@@ -233,8 +233,60 @@ footer {
     font-size: 200%;
     
 }
+@media (max-width:350px) and (min-width:201px) {
+    main {
+        flex-direction: column;
+    }
+    .headline {
+        margin:auto;
+        margin-top:50px;
+        margin-bottom: 30px;
+        width: 100%;
+        font-size: 40%;
+    }
+    .email {
+        margin: auto;
+        font-size: 30%;
+    }
+    .email-form {
+        margin-top:10px
+    }
+    .email-form input {
+        width: 60px;
+        height: 1px;
+    }
+    .main-menu li {
+        display:none;
+    }
+    .button {
+        padding-block: 5px;
+        padding-inline: 10px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+    .burger {
+        visibility: visible;
+        margin-left:auto;
+    }
+    .logo-img {
+        width:auto;
+        height: 38px;
+        margin: 0px;
+        display: inline-block;
+    }
+    .logo-text {
+        text-decoration: none;
+        color: #05386B;
+        font-size:100%;
+        font-weight: bold;
+        display: inline-block;
+    }
+    footer {
+        font-size: 60%;
+    }
 
-@media (max-width:700px) {
+}
+@media (max-width:700px) and (min-width:351px) {
     main {
         flex-direction: column;
     }
@@ -272,6 +324,9 @@ footer {
         font-weight: bold;
         display: inline-block;
     }
+    .footer {
+        font-size: 80%;
+    }
 }
 @media (max-width:1300px) and (min-width:701px) {
     main {
@@ -298,7 +353,9 @@ footer {
         visibility: visible;
         margin-left:auto;
     }
-
+    footer {
+        font-size: 100%;
+    }
 } 
 
 @media (max-width:1400px) and (min-width: 1301px) {
@@ -319,5 +376,7 @@ footer {
     .email-form input {
         width: 240px;
     }
-   
+    footer {
+        font-size: 120%;
+    }
 }
