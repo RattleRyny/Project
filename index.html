@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="A website about musical instruments">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Musical Instruments | Home </title>
@@ -33,7 +34,7 @@
                 <button type="checkbox" class="burger fa-solid fa-bars" id="menuButton"></button>
             </div>
             <nav>
-                <ul id="menu">
+                <ul >
                     <li><a href="strings.html">Strings</a></li>
                     <li><a href="percussion.html">Percussion</a></li>
                     <li><a href="brass.html">Brass</a></li>
@@ -48,7 +49,8 @@
     </div>
     <main> 
         <nav class="burgerMenuList" id="burgerMenuList">
-            <ul id="menu">
+            <ul id="burger-menu">
+                <li><a href="/">Home</a></li>
                 <li><a href="strings.html">Strings</a></li>
                 <li><a href="percussion.html">Percussion</a></li>
                 <li><a href="brass.html">Brass</a></li>
@@ -80,20 +82,23 @@
         </div> 
         
     </main>
+    
     <div class="carousel">
-        <div class="carousel">
-            <nav>
-              <a href="#" id="carouselPrev">&#x2B05;</a> <!-- &lt; is the < symbol -->
-              <a href="#" id="carouselNext">&#x2B95;</a> <!-- &gt; is the > symbol -->
-            </nav>
-            
-            <!-- Carousel image container -->
-            <div class="carousel-images" id="carouselImages"></div>
-            
-            <!-- Carousel image captions -->
-            <p class="carousel-caption" id="carouselCaption"></p>
-          </div>
+        <nav>
+        <a href="#" id="carouselPrev">&#x2B05;</a> <!-- &lt; is the < symbol -->
+        <a href="#" id="carouselNext">&#x2B95;</a> <!-- &gt; is the > symbol -->
+        </nav>
+        
+        <!-- Carousel image container -->
+        <div class="carousel-images" id="carouselImages"></div>
+        
+        <!-- Carousel image captions -->
+        <p class="carousel-caption" id="carouselCaption"></p>
     </div>
+    <div class="insImg">
+        <img class="img" src="assets/instruments.png" alt="Instruments">
+    </div>
+    
     <footer>
         &copy YnyrDavies
     </footer>

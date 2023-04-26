@@ -1,4 +1,4 @@
-html, body {
+body {
     overflow-x: hidden;
 }
 body {
@@ -7,6 +7,9 @@ body {
     padding: 0px;
     font-family: 'Lato', sans-serif;
     position: relative;
+}
+main {
+    min-height: 1000px;
 }
 .main-menu {
     margin:0px;
@@ -208,7 +211,8 @@ footer {
     position: absolute;
     right:-1000px;
     background-color: rgba(5, 56, 107,1);
-    height: 100%;    
+    height: 100%;
+    display: none;    
 }
 .burgerMenuList nav {
     margin-block: auto;
@@ -232,6 +236,13 @@ footer {
     color: white;
     font-size: 200%;
     
+}
+.insImg {
+    width:100%;
+    display: none;
+}
+.img {
+    width:100%;
 }
 @media (max-width:350px) and (min-width:201px) {
     main {
@@ -284,8 +295,17 @@ footer {
     footer {
         font-size: 60%;
     }
+    .burgerMenuList {
+        display: block;
+    }
 
 }
+@media (max-width:1000px) {
+    .insImg{
+      display: block;
+    }
+
+  }
 @media (max-width:700px) and (min-width:351px) {
     main {
         flex-direction: column;
@@ -327,6 +347,9 @@ footer {
     .footer {
         font-size: 80%;
     }
+    .burgerMenuList {
+        display: block;
+    }
 }
 @media (max-width:1300px) and (min-width:701px) {
     main {
@@ -355,6 +378,9 @@ footer {
     }
     footer {
         font-size: 100%;
+    }
+    .burgerMenuList {
+        display: block;
     }
 } 
 

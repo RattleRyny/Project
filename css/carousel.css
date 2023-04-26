@@ -59,7 +59,6 @@
 }
 @media (max-width:1000px) {
   .carousel {
-    /* visibility: hidden; */
     display: none;
   }
 }
