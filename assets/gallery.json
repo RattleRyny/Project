@@ -1,11 +1,22 @@
 [
     {
         "url":"assets/img/img1.png",
-        "caption":"Guitar: D-28 StreetLegend Martin"
+        "caption":"Acoustic Guitar: D-28 StreetLegend Martin"
     },
     {
         "url":"assets/img/img2.png",
         "caption":"Piano: Steinway D-274"
+    },
+    {
+        "url":"assets/img/img3.png",
+        "caption":"Horn: Alexander 103 Double Horn"
+    },
+    {
+        "url":"assets/img/img4.png",
+        "caption":"Electric Guitar: 1959 Gibson Les Paul"
+    },
+    {
+        "url":"assets/img/img5.png",
+        "caption":"Xylophone: Thomann MSPVT43 Marimba A=442"
     }
-
 ]

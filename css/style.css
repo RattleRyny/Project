@@ -1,7 +1,5 @@
 body {
     overflow-x: hidden;
-}
-body {
     background-color: #5CDB95;
     margin: 0px;
     padding: 0px;
@@ -9,24 +7,69 @@ body {
     position: relative;
 }
 main {
-    min-height: 1000px;
+    min-height: 200px;
+    width: auto;
+    height:fit-content;
 }
+h1 {
+    color:#05386B;
+    font-size: 500%;
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    color: #EDF5E1;
+    font-size: 140%;
+    display: flex;
+    justify-content: center;
+}
+.hr-fixer hr {
+    background-color:#05386B;
+    height:5px;
+    border: 0px;
+    margin-inline: auto;
+    border-radius: 5px;
+    width:100%;
+}
+.button {
+    font-family: sans-serif;
+    background-color: #05386B;
+    color: aliceblue;
+    border:0px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.button:hover {
+    background-color: #275A8C;
+}
+.page-title {
+    justify-content: center;
+    display: flex;
+    color: #05386B;
+    font-family: sans-serif;
+    font-size: 400%;
+    margin: 30px;
+    font-weight: bold;
+}
+
 .main-menu {
     margin:0px;
     display:flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
-.logo {
+.main-menu .logo {
     display: flex;
 }
-.logo-img {
+.main-menu .logo-img {
     width:auto;
     height: 100px;
     margin: 0px;
     display: inline-block;
 }
-.logo-text {
+.main-menu .logo-text {
     text-decoration: none;
     color: #05386B;
     font-size: 300%;
@@ -59,73 +102,65 @@ main {
     color: #05386B;
     font-size: 200%;
 }
-hr {
-    background-color: #05386B;
-    height:5px;
-    border: 0px;
-    margin-inline: auto;
-    border-radius: 5px;
-    width:100%;
+
+
+
+
+.wrapper {
+    display:flex;
 }
-.fixer {
-    min-width: 400px;
-}
-main{
-    display: flex;
-    height:fit-content;
-    font-family: sans-serif;
-}
-.headline {
+.theQuote {
     background-image: url(../assets/guitar.png);
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: top ;
-    background-size: auto 100%;
+    background-size:auto 80%;
     width:60%;
     display: inline-block;
     margin: 50px;
     margin-top: 125px;
     
 }
-.headline h1{
+.quote{
     text-align: center;
     color: #EDF5E1;
-    font-family: sans-serif;
     font-size: 250%;
     width:50%;
     justify-content: center;
     margin: auto;
 }
-.headline h2 {
+.quotee {
     color: #EDF5E1;
-    font-family: sans-serif;
     font-size: 140%;
     display: flex;
     justify-content: right;
     margin-right: 25%;
 }
 
-.email h1 {
+
+main .email h1 {
     margin-top: 80px;
     color: #05386B;
     font-weight: bold;
+    align-items: left;
+    font-size: 250%;
 }
-.email ul {
+main .email ul {
     color:#05386B;
     font-size: 150%;
 }
-.email-form {
+main .email-form {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-inline: auto ;
     margin-top: 100px;
 }
-.email-form label {
+main .email-form label {
     color: #05386B;
     font-size: 150%;
 }
-.email-form input {
+main .email-form input {
     padding: 12px 20px;
     margin: 8px 0;
     border-radius: 4px;
@@ -134,126 +169,87 @@ main{
     width: 350px;
 }
 
-.button {
-    font-family: sans-serif;
-    background-color: #05386B;
-    color: aliceblue;
-    border:0px;
-    padding-block: 10px;
-    padding-inline: 20px;
-    border-radius: 4px;
-    margin-bottom: 20px;
+.ins-Img {
+    width:100%;
+    display: none;
 }
-.button:hover {
-    background-color: #275A8C;
+.index-img {
+    width:100%;
 }
+
+.instrument-group-list h2 a {
+    text-decoration: none;
+    color: #EDF5E1;
+    font-size: 200%;
+}
+.instrument-group-list a:hover {
+    color: #275A8C;
+    background-color:  rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+.instrument-group-list hr {
+    background-color:#05386B;
+    height:4px;
+    border: 0px;
+    margin-inline: auto;
+    border-radius: 5px;
+    width:40%;
+}
+.ins-titles {
+    margin:auto;
+    display: flex;
+    list-style-type: none; 
+    width:65%;
+    justify-content: space-evenly;
+}
+.ins-titles a {
+    display: inline-block;
+    
+    text-decoration: none;
+    color: #05386B;
+    font-size: 200%;
+}
+
+.ins-info {
+    margin:auto;
+    display: flex;    
+    list-style-type: none; 
+    width:65%;
+}
+.ins-info li {
+    width:25%
+}
+.ins-info a {
+    display: flex;
+    padding-inline: 30px;
+    text-decoration: none;
+    color: #05386B;
+    font-size: 150%;
+}
+
+
 footer {
     text-align: center;
     font-size: 120%;
     bottom: 0;
     width: 100%;
-    height: 50px;
+}
+footer p {
+    margin-block: 40px;
 }
 
-.title {
-    justify-content: center;
-    display: flex;
-    color: #05386B;
-    font-family: sans-serif;
-    font-size: 400%;
-    margin: 30px;
-    font-weight: bold;
-}
-.quote {
-    text-align: center;
-    color: #EDF5E1;
-    font-family: sans-serif;
-    font-size: 350%;
-}
-.quotee{
-    text-align: center;
-    color: #EDF5E1;
-    font-family: sans-serif;
-    font-size: 140%;
-    margin-left: 20%;
-}
-.instrument-description {
-    margin-left: 10%;
-    font-size: 120%;
-    color:#05386B;
-    font-weight: bold;
-    text-align: center;
-    width:40%;
-}
-.instrument-img {
-    float:right;
-    display:inline-flex;
-    width:500px
-}
-.burger {
-    visibility: hidden;
-    color: #05386B;
-    font-size: 40px;
-    background-color: transparent;
-    border-color: transparent;
-    height: 0px;
-}
-.burger:hover {
-    color: #275A8C;
-}
-.burger-section {
-    margin:auto;
-    margin-right: 0px; 
-    text-align: right;
-}
 
-.burgerMenuList {  
-    position: absolute;
-    right:-1000px;
-    background-color: rgba(5, 56, 107,1);
-    height: 100%;
-    display: none;    
-}
-.burgerMenuList nav {
-    margin-block: auto;
-}
-.burgerMenuList ul {
-    list-style-type: none;    
-    margin: 0px;
-    padding: 0px; 
-}
-.burgerMenuList li {
-    margin: 5px;
-    margin-inline: 30px;
-}
-.burgerMenuList li a:hover {
-    color: #275A8C;
-}
-.burgerMenuList ul a {
-    display: inline-block;
-    padding: 5px;
-    text-decoration: none;
-    color: white;
-    font-size: 200%;
-    
-}
-.insImg {
-    width:100%;
-    display: none;
-}
-.img {
-    width:100%;
-}
 @media (max-width:350px) and (min-width:201px) {
-    main {
+    .wrapper {
         flex-direction: column;
     }
-    .headline {
+    .theQuote {
         margin:auto;
         margin-top:50px;
         margin-bottom: 30px;
         width: 100%;
         font-size: 40%;
+        background-size:auto 100%;
     }
     .email {
         margin: auto;
@@ -275,10 +271,6 @@ footer {
         border-radius: 4px;
         margin-bottom: 20px;
     }
-    .burger {
-        visibility: visible;
-        margin-left:auto;
-    }
     .logo-img {
         width:auto;
         height: 38px;
@@ -295,27 +287,39 @@ footer {
     footer {
         font-size: 60%;
     }
-    .burgerMenuList {
-        display: block;
+    .ins-titles a{ 
+        font-size: 100%;
     }
-
+    .ins-info a {
+        font-size: 80%;
+    }
+    .instrument-group-list h2 a {
+        font-size: 150%;
+    }
+    h1 {
+        color:#05386B;
+        font-size: 200%;
+        display: flex;
+        justify-content: center;
+    }
 }
 @media (max-width:1000px) {
     .insImg{
       display: block;
     }
-
-  }
+    
+}
 @media (max-width:700px) and (min-width:351px) {
-    main {
+    .wrapper {
         flex-direction: column;
     }
-    .headline {
+    .theQuote {
         margin:auto;
         margin-top:50px;
         margin-bottom: 30px;
         width: 100%;
         font-size: 60%;
+        background-size:auto 100%;
     }
     .email {
         margin: auto;
@@ -326,10 +330,6 @@ footer {
     }
     .main-menu li {
         display:none;
-    }
-    .burger {
-        visibility: visible;
-        margin-left:auto;
     }
     .logo-img {
         width:auto;
@@ -347,20 +347,38 @@ footer {
     .footer {
         font-size: 80%;
     }
-    .burgerMenuList {
-        display: block;
+    .ins-titles a{ 
+        font-size: 70%;
+    }
+    .ins-info a {
+        font-size: 45%;
+    }
+    .instrument-group-list h2 a {
+        font-size: 150%;
+    }
+    h1 {
+        color:#05386B;
+        font-size: 200%;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:1000px) {
+    .ins-info a {
+        padding-inline: 20px ;
     }
 }
 @media (max-width:1300px) and (min-width:701px) {
-    main {
+    .wrapper {
         flex-direction: column;
     }
-    .headline {
+    .theQuote {
         margin:auto;
         margin-top:50px;
         margin-bottom: 30px;
         width: 100%;
         font-size: 100%;
+        background-size:auto 100%;
     }
     .email {
         margin: auto;
@@ -372,37 +390,54 @@ footer {
     .main-menu li {
         display:none;
     }
-    .burger {
-        visibility: visible;
-        margin-left:auto;
-    }
     footer {
         font-size: 100%;
     }
-    .burgerMenuList {
-        display: block;
+    .ins-titles a{ 
+        font-size: 100%;
+    }
+    .ins-info a {
+        font-size: 80%;
+    }
+    .instrument-group-list h2 a {
+        font-size: 150%;
+    }
+    h1 {
+        color:#05386B;
+        font-size: 200%;
+        display: flex;
+        justify-content: center;
     }
 } 
 
 @media (max-width:1400px) and (min-width: 1301px) {
-    main {
+    .wrapper {
         flex-direction: column;
     }
-    .headline {
+    .theQuote {
         margin:auto;
         margin-top:50px;
         margin-bottom: 30px;
         width: 100%;
         font-size: 120%;
+        background-size:auto 100%;
     }
-    .email {
+    main .email {
         margin: auto;
-        font-size: 120%;
     }
     .email-form input {
         width: 240px;
     }
     footer {
         font-size: 120%;
+    }
+    .ins-titles a{ 
+        font-size: 150%;
+    }
+    .ins-info a {
+        font-size: 100%;
+    }
+    .instrument-group-list h2 a {
+        font-size: 200%;
     }
 }

@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/burgerMenu.css">
     <script defer type="text/javascript" src="js/carousel.js"></script>
     <script defer type="text/javascript" src="js/burgerMenu.js"></script>   
 
@@ -18,13 +19,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body >
-    
-    <div class="fixer">
-        <hr>
-    </div>      
+<body >     
     <header>
-        
+        <div class="hr-fixer">
+            <hr>
+        </div>         
         <div class="main-menu">
             <div class="logo">
                 <a href="/"><img class="logo-img" src="assets/icon.png" alt="icon"></a>
@@ -42,67 +41,124 @@
                     <li><a href="gallery.html">Gallery</a></li>
                 </ul>
             </nav>
-        </div>        
-    </header>
-    <div class="fixer">
-        <hr>
-    </div>
-    <main> 
-        <nav class="burgerMenuList" id="burgerMenuList">
-            <ul id="burger-menu">
-                <li><a href="/">Home</a></li>
-                <li><a href="strings.html">Strings</a></li>
-                <li><a href="percussion.html">Percussion</a></li>
-                <li><a href="brass.html">Brass</a></li>
-                <li><a href="woodwind.html">Woodwind</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>       
-        <section class="headline">
-            <h1 class="quote">It's easy to play any musical instrument,<br> all you have to do is touch the right key at the right time and the instrument will play itself.</h1>
-            <h2 class="quotee">-Johann Sebastian Bach</h2>
-        </section>
-        <div class = "email">
-            <h1>We send weekly info on email about:</h1>
-            <ul class ="email-info">
-                <li>Deals we've found just for you!</li>
-                <li>Tips and tricks about ALL types of instruments!</li>
-                <li>Information about popular artist and bands!</li>
-                <li>Free music copies and tabs!</li>
-                <li>Videos by professionals talking through high level skills</li>
-            </ul>
-            <form class="email-form">
-                <label for="email">Register your interest in our mailing list:</label>
-                <input type="text" id="emailForm" class="email-form" placeholder="Email"/>
-                <button type="submit" class="button" id="addEmail">
-                    <i class="fas fa-plus"></i>
-                    <span>Register Email</span>
-                </button>
-            </form>
         </div> 
-        
+        <div class="hr-fixer">
+            <hr>
+        </div>       
+    </header>    
+    <main> 
+        <div class="wrapper">
+            <nav class="burgerMenuList" id="burgerMenuList">
+                <ul id="burger-menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="strings.html">Strings</a></li>
+                    <li><a href="percussion.html">Percussion</a></li>
+                    <li><a href="brass.html">Brass</a></li>
+                    <li><a href="woodwind.html">Woodwind</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>       
+            <section class="theQuote">
+                <h1 class="quote">It's easy to play any musical instrument,<br> all you have to do is touch the right key at the right time and the instrument will play itself.</h1>
+                <h2 class="quotee">-Johann Sebastian Bach</h2>
+            </section>
+            <div class = "email">
+                <h1>We send weekly info on email about:</h1>
+                <ul class ="email-info">
+                    <li>Deals we've found just for you!</li>
+                    <li>Tips and tricks about ALL types of instruments!</li>
+                    <li>Information about popular artist and bands!</li>
+                    <li>Free music copies and tabs!</li>
+                    <li>Videos by professionals talking through high level skills</li>
+                </ul>
+                <form class="email-form">
+                    <label for="email">Register your interest in our mailing list:</label>
+                    <input type="text" id="emailForm" class="email-form" placeholder="Email"/>
+                    <button type="submit" class="button" id="addEmail">
+                        <i class="fas fa-plus"></i>
+                        <span>Register Email</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <h1><u>Instrument Families</u></h1>
+        <div class="carousel">
+            <nav>
+            <a href="#" id="carouselPrev">&#x2B05;</a> <!-- &lt; is the < symbol -->
+            <a href="#" id="carouselNext">&#x2B95;</a> <!-- &gt; is the > symbol -->
+            </nav>
+            
+            <!-- Carousel image container -->
+            <div class="carousel-images" id="carouselImages"></div>
+            
+            <!-- Carousel image captions -->
+            <p class="carousel-caption" id="carouselCaption"></p>
+        </div>
+        <div class="ins-Img">
+            <img class="index-img" src="assets/instruments.png" alt="Instruments">
+        </div>
+        <div class="instrument-group-list">            
+            <h2><a href="woodwind.html">Woodwind</a></h2>
+            <hr>
+            <ul class="ins-titles">
+                <li><a href="woodwind.html#flute">Flute</a></li>
+                <li><a href="woodwind.html#oboe">Oboe</a></li>
+                <li><a href="woodwind.html#clarinet">Clarinet</a></li>
+                <li><a href="woodwind.html#bassoon">Bassoon</a></li>
+            </ul>
+            <ul class="ins-info">
+                <li><a href="woodwind.html#flute"><span>A melodic instrument for the most part, the flute has a clear and bright sound with a distinctive warmth, refinement, and subtlety to its tone. Another feature of the flute is the use of expensive materials such as gold, silver, and gems in its manufacture.</span></a></li>
+                <li><a href="woodwind.html#oboe"><span>Oboes, whose name comes from the French for "high-pitched wood," are excellent for solo performances with many notes in high ranges. The oboe is extremely difficult to play.</span></a></li>
+                <li><a href="woodwind.html#clarinet"><span>The appeal of the clarinet is its rich variety of expression, which ranges from a light timbre to a deep mysterious timbre. It also boasts a register of approximately four octaves—the largest of any wind instrument.</span></a></li>
+                <li><a href="woodwind.html#bassoon"><span>From deep resounding low notes to sweet melodies, unhindered expression. The long, wide wooden pipe of the bassoon contains much wisdom.</span></a></li>
+            </ul>
+            <h2><a href="percussion.html">Percussion</a></h2>
+            <hr>
+            <ul class="ins-titles">
+                <li><a href="percussion.html#timpani">Timpani</a></li>
+                <li><a href="percussion.html#xylophone">Xylophone</a></li>
+                <li><a href="percussion.html#drums">Drums</a></li>
+                <li><a href="percussion.html#marimba">Marimba</a></li>
+            </ul>
+            <ul class="ins-info">
+                <li><a href="percussion.html#timpani"><span>The timpani is an indispensable part of any orchestra, with its heavy bass sound that resonates deep in your abdomen. It is capable of producing accurate pitches, and can even be used to play a melody.</span></a></li>
+                <li><a href="percussion.html#xylophone"><span>The Xylophone is a musical instrument consisting of a series of wooden bars varying in length and sounded by striking with two wooden hammers.</span></a></li>
+                <li><a href="percussion.html#drums"><span>As the “keeper of the rhythm,” the drum provides the foundation for the overall sound of music.Because a drum only has to be hit to make a sound, it is also one of the simplest of the instruments.</span></a></li>
+                <li><a href="percussion.html#marimba"><span>There are various ingenious ways in which the marimba is designed to produce musical notes, including in places you cannot see, as well as through the length and thickness of the wood.</span></a></li>
+            </ul>
+            <h2><a href="strings.html">Strings</a></h2>
+            <hr>
+            <ul class="ins-titles">
+                <li><a href="strings.html#acousticGuitar">Acoustic Guitar</a></li>
+                <li><a href="strings.html#electricGuitar">Electric Guitar</a></li>
+                <li><a href="strings.html#violin">Violin</a></li>
+                <li><a href="strings.html#piano">Piano</a></li>
+            </ul>
+            <ul class="ins-info">
+                <li><a href="strings.html#acousticGuitar"><span>The timbre of a guitar is determined by its body. Most people have never looked inside a guitar and may not realize it, but guitars are actually very cleverly designed. </span></a></li>
+                <li><a href="strings.html#electricGuitar"><span>Even though electricity is used to amplify the volume, the body and neck are merely pieces of wood. These instruments come in unique shapes and colors.</span></a></li>
+                <li><a href="strings.html#violin"><span>Whether performing an elegant solo or being the heart of the orchestra, the violin is a “star” in the music world.</span></a></li>
+                <li><a href="strings.html#piano"><span>The piano is a keyboard instrument that produces sound by striking strings with hammers, characterized by its large range and ability to play chords freely. It is a musical instrument that has broad appeal.</span></a></li>
+            </ul>
+            <h2><a href="brass.html">Brass</a></h2>
+            <hr>
+            <ul class="ins-titles">
+                <li><a href="brass.html#trumpet">Trumpet</a></li>
+                <li><a href="brass.html#trombone">Trombone</a></li>
+                <li><a href="brass.html#horn">Horn</a></li>
+                <li><a href="brass.html#tuba">Tuba</a></li>
+            </ul>
+            <ul class="ins-info">
+                <li><a href="brass.html#trumpet"><span>The trumpet is characterized by its striking, triumphal sound and by the fact that it boasts the highest register of all the brass instruments. It does splendid work, single-handedly giving expression to heroism and jubilation.</span></a></li>
+                <li><a href="brass.html#trombone"><span>Trombones produce sound as they are extended and contracted. They have continued to evolve since their creation in the 15th century.</span></a></li>
+                <li><a href="brass.html#horn"><span>The horn is a brass instrument whose soft resonant timbre allows it to harmonize well with both brass and woodwind instruments. One of the unique aspects of this instrument is that the player keeps a hand in the bell while playing. </span></a></li>
+                <li><a href="brass.html#tuba"><span>The tuba, which produces the lowest pitched sound of all brass instruments, has different configurations depending on the country and the musical style.</span></a></li>
+            </ul>
+        </div>
     </main>
     
-    <div class="carousel">
-        <nav>
-        <a href="#" id="carouselPrev">&#x2B05;</a> <!-- &lt; is the < symbol -->
-        <a href="#" id="carouselNext">&#x2B95;</a> <!-- &gt; is the > symbol -->
-        </nav>
-        
-        <!-- Carousel image container -->
-        <div class="carousel-images" id="carouselImages"></div>
-        
-        <!-- Carousel image captions -->
-        <p class="carousel-caption" id="carouselCaption"></p>
-    </div>
-    <div class="insImg">
-        <img class="img" src="assets/instruments.png" alt="Instruments">
-    </div>
-    
     <footer>
-        &copy YnyrDavies
+        <p>&copy; YnyrDavies</p>
     </footer>
-    
-</script>
 </body>
 </html>
