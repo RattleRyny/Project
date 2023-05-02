@@ -29,9 +29,11 @@ h2 {
 }
 h3 {
     color: #EDF5E1;
-    font-size: 240%;
+    font-size: 300%;
     display: flex;
     justify-content: center;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
 }
 .button {
     font-family: sans-serif;
@@ -249,7 +251,7 @@ hr {
 p {
     display: flex;
     color: #05386B;
-    font-size: 150%;
+    font-size: 250%;
     text-align: center;
     width:40%;
     margin:auto;
@@ -257,7 +259,8 @@ p {
 }
 img {
     width:30%;
-    height:500px
+    height:500px;
+    min-width: 401px;
 }
 .ins-info {
     display: flex;
@@ -268,7 +271,11 @@ img {
 .ins-info p {
     width:100%;
 }
-
+.wrapper2 {
+    border:6px solid #05386B;
+    border-radius: 5px;
+    margin:30px;
+}
 footer {
     text-align: center;
     font-size: 120%;
@@ -279,232 +286,14 @@ footer p {
     margin-block: 40px;
 }
 
-
-@media (max-width:350px) and (min-width:201px) {
-    .wrapper {
-        flex-direction: column;
-    }
-    .theQuote {
-        margin:auto;
-        margin-top:50px;
-        margin-bottom: 30px;
-        width: 100%;
-        font-size: 40%;
-        background-size:auto 100%;
-    }
-    .email {
-        margin: auto;
-        font-size: 30%;
-    }
-    .email-form {
-        margin-top:10px
-    }
-    .email-form input {
-        width: 60px;
-        height: 1px;
-    }
-    .main-menu li {
-        display:none;
-    }
-    .button {
-        padding-block: 5px;
-        padding-inline: 10px;
-        border-radius: 4px;
-        margin-bottom: 20px;
-    }
-    .main-menu .logo-img {
-        width:auto;
-        height: 38px;
-        margin: 0px;
-        display: inline-block;
-    }
-    .main-menu .logo-text {
-        text-decoration: none;
-        color: #05386B;
-        font-size:100%;
-        font-weight: bold;
-        display: inline-block;
-    }
-    footer {
-        font-size: 60%;
-    }
-    .ins-titles a{ 
-        font-size: 100%;
-    }
-    .ins-info a {
-        font-size: 80%;
-    }
-    .instrument-group-list h2 a {
-        font-size: 150%;
-    }
-    h1 {
-        color:#05386B;
-        font-size: 200%;
-        display: flex;
-        justify-content: center;
-    }
-    .info {
-        margin:auto;
-        width:100%;
-    }
-    .info h1 {
-        margin:auto;
-        margin-top: 100px;
-        color: #05386B;
-        font-weight: bold;
-        font-size: 150%;
-        width:40%;
-    }
-}
-@media (max-width:1000px) {
-    .insImg{
-      display: block;
-    }
-    
-}
-@media (max-width:700px) and (min-width:351px) {
-    .wrapper {
-        flex-direction: column;
-    }
-    .theQuote {
-        margin:auto;
-        margin-top:50px;
-        margin-bottom: 30px;
-        width: 100%;
-        font-size: 60%;
-        background-size:auto 100%;
-    }
-    .email {
-        margin: auto;
-        font-size: 60%;
-    }
-    .email-form input {
-        width: 200px;
-    }
-    .main-menu li {
-        display:none;
-    }
-    .main-menu .logo-img {
-        width:auto;
-        height: 75px;
-        margin: 0px;
-        display: inline-block;
-    }
-    .main-menu .logo-text {
-        text-decoration: none;
-        color: #05386B;
-        font-size: 200%;
-        font-weight: bold;
-        display: inline-block;
-    }
-    .footer {
-        font-size: 80%;
-    }
-    .ins-titles {
-        margin-bottom: 7px;
-    }
-    .ins-titles a{ 
-        font-size: 70%;
-    }
-    .ins-info a {
-        font-size: 45%;
-    }
-    .instrument-group-list h2 a {
-        font-size: 150%;
-    }
-    h1 {
-        color:#05386B;
-        font-size: 200%;
-        display: flex;
-        justify-content: center;
-    }
-    .info {
-        margin:auto;
-        width:100%;
-    }
-    .info h1 {
-        margin:auto;
-        margin-top: 100px;
-        color: #05386B;
-        font-weight: bold;
-        font-size: 150%;
-        width:40%;
-    }
-}
-@media (max-width:1000px) {
-    .ins-brief-info a {
-        padding-inline: 20px ;
-    }
-    .ins-info {
-        flex-direction: column;
-    }
-    .img{
-        width:80%;
-        margin:auto;
-    }
-    aside {
-        margin: auto;
+@media (max-width:1600px) {
+    img {
+        width:50%;
+        height: 400px
     }
 
 }
-@media (max-width:1300px) and (min-width:701px) {
-    .wrapper {
-        flex-direction: column;
-    }
-    .theQuote {
-        margin:auto;
-        margin-top:50px;
-        margin-bottom: 30px;
-        width: 100%;
-        font-size: 100%;
-        background-size:auto 100%;
-    }
-    .email {
-        margin: auto;
-        font-size: 100%;
-    }
-    .email-form input {
-        width: 200px;
-    }
-    .main-menu li {
-        display:none;
-    }
-    footer {
-        font-size: 100%;
-    }
-    .ins-titles {
-        margin-bottom: 10px;
-    }
-    .ins-titles a{ 
-        font-size: 100%;
-    }
-    .ins-info a {
-        font-size: 80%;
-    }
-    .instrument-group-list h2 a {
-        font-size: 150%;
-    }
-    h1 {
-        color:#05386B;
-        font-size: 200%;
-        display: flex;
-        justify-content: center;
-    }
-    .info {
-        margin:auto;
-        width:100%;
-    }
-    .info h1 {
-        margin:auto;
-        margin-top: 100px;
-        color: #05386B;
-        font-weight: bold;
-        font-size: 150%;
-        width:40%;
-    }
-} 
-
-@media (max-width:1400px) and (min-width: 1301px) {
+@media (max-width:1400px) {
     .wrapper {
         flex-direction: column;
     }
@@ -528,14 +317,8 @@ footer p {
     .ins-titles {
         margin-bottom: 10px;
     }
-    .ins-titles a{ 
-        font-size: 150%;
-    }
-    .ins-info a {
+    .ins-brief-info a {
         font-size: 100%;
-    }
-    .instrument-group-list h2 a {
-        font-size: 200%;
     }
     .info {
         margin:auto;
@@ -547,13 +330,156 @@ footer p {
         color: #05386B;
         font-weight: bold;
         font-size: 200%;
-        width:40%;
+        width:80%;
+    }
+    p {
+        width:80%;
     }
 }
-@media (max-width:1600px) and (min-width:1000px) {
-    .img {
-        width:40%;
-        height: 400px
+@media (max-width:1300px) {
+    .insImg{
+      display: block;
     }
-
+    .main-menu li {
+        display:none;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .theQuote {
+        font-size: 100%;
+    }
+    .email {
+        font-size: 100%;
+    }
+    .email-form input {
+        width: 200px;
+    }
+    footer {
+        font-size: 100%;
+    }
+    .ins-titles a{ 
+        font-size: 150%;
+    }
+    .ins-brief-info a {
+        font-size: 80%;
+        padding-inline: 20px ;
+    }
+    h1 {
+        color:#05386B;
+        font-size: 200%;
+        display: flex;
+        justify-content: center;
+    }
+    .info h1 {
+        font-size: 150%;        
+    }
+    .ins-info {
+        flex-direction: column;
+    }
+    img{
+        margin:auto;
+    }
+    aside {
+        margin: auto;
+    }
+    p {
+        font-size: 200%;
+    }
+    h3 {
+        font-size: 150%;
+        text-decoration-thickness: 2px;
+    }
+}
+@media (max-width:1000px) {
+    /* .ins-info img {
+        min-width: 400px;
+    } */
+}
+@media (max-width:700px){
+    .theQuote {
+        font-size: 60%;
+    }
+    h2 {
+        font-size: 250%;
+    }
+    .email {
+        font-size: 60%;
+    }
+    .email-form input {
+        width: 200px;
+    }
+    .main-menu .logo-img {
+        width:auto;
+        height: 75px;
+        margin: 0px;
+        display: inline-block;
+    }
+    .main-menu .logo-text {
+        text-decoration: none;
+        color: #05386B;
+        font-size: 200%;
+        font-weight: bold;
+        display: inline-block;
+    }
+    .footer {
+        font-size: 80%;
+    }
+    .ins-info img  {
+        height:300px;
+        width:200px;
+    }
+    .ins-titles {
+        margin-bottom: 7px;
+        font-size: 100%;
+        width:90%;
+        padding-left: 0px;
+    }
+    .ins-brief-info {
+        padding-left: 0px;
+        width:90%;
+    }
+    .ins-brief-info a {
+        font-size: 70%;
+    }
+    p {
+        font-size: 100%;
+    }
+    
+}
+@media (max-width:350px) {
+    .theQuote {
+        font-size: 40%;
+    }
+    .email {
+        font-size: 30%;
+    }
+    .email-form {
+        margin-top:10px
+    }
+    .email-form input {
+        width: 60px;
+        height: 1px;
+    }
+    .button {
+        padding-block: 5px;
+        padding-inline: 10px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+    }
+    .main-menu .logo-img {
+        height: 38px;
+    }
+    .main-menu .logo-text {
+        font-size:100%;
+    }
+    footer {
+        font-size: 60%;
+    }
+    .ins-titles a{ 
+        font-size: 100%;
+    }
+    p {
+        font-size:0%
+    }
 }
