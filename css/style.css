@@ -257,7 +257,7 @@ p {
     margin:auto;
     margin-top: 10px;
 }
-img {
+.ins-info img {
     width:30%;
     height:500px;
     min-width: 401px;
