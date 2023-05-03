@@ -20,7 +20,7 @@
     right:-1000px;
     background-color: rgba(5, 56, 107,1);
     height: 100%;
-    display: none;    
+    display: none; 
 }
 .burgerMenuList nav {
     margin-block: auto;
@@ -51,26 +51,16 @@
         visibility: visible;
         margin-left:auto;
     }
-    .burgerMenuList {
-        display: block;
-    }
 }
 @media (max-width:700px) and (min-width:351px) {
     .burger {
         visibility: visible;
         margin-left:auto;
     }
-    .burgerMenuList {
-        display: block;
-    }
 }
 @media (max-width:1300px) and (min-width:701px) {
     .burger {
         visibility: visible;
         margin-left:auto;
-    }
-    
-    .burgerMenuList {
-        display: block;
     }
 } 
