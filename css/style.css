@@ -151,7 +151,6 @@ h3 {
     margin-top: 100px;
     color: #05386B;
     font-weight: bold;
-    align-items: left;
     font-size: 200%;
     text-align: center;
     width:80%;
@@ -161,7 +160,6 @@ main .email h1 {
     margin-top: 80px;
     color: #05386B;
     font-weight: bold;
-    align-items: left;
     font-size: 250%;
 }
 main .email ul {
@@ -248,7 +246,7 @@ hr {
     color: #05386B;
     font-size: 150%;
 }
-p {
+.wrapper2 p {
     display: flex;
     color: #05386B;
     font-size: 250%;
@@ -277,15 +275,15 @@ p {
     margin:30px;
 }
 footer {
-    text-align: center;
-    font-size: 120%;
-    bottom: 0;
-    width: 100%;
+    margin:auto;
+    font-size: 150%;
+    color: #05386B;
+    width:100%;
 }
 footer p {
-    margin-block: 40px;
+    width:100%;
+    text-align: center
 }
-
 @media (max-width:1600px) {
     img {
         width:50%;
@@ -367,7 +365,7 @@ footer p {
     }
     h1 {
         color:#05386B;
-        font-size: 200%;
+        font-size: 400%;
         display: flex;
         justify-content: center;
     }
@@ -387,7 +385,7 @@ footer p {
         font-size: 200%;
     }
     h3 {
-        font-size: 150%;
+        font-size: 250%;
         text-decoration-thickness: 2px;
     }
 }
@@ -444,6 +442,9 @@ footer p {
     }
     p {
         font-size: 100%;
+    }
+    h3 {
+        font-size: 150%;
     }
     
 }
