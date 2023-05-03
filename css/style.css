@@ -65,6 +65,7 @@ h3 {
     border-top: solid 4px #05386B;
     border-bottom: solid 4px #05386B;
     margin: 10px 0px ;
+    min-height: 64px; 
 }
 .main-menu .logo {
     display: flex;
@@ -107,6 +108,7 @@ h3 {
     text-decoration: none;
     color: #05386B;
     font-size: 200%;
+    font-weight: bolder;
 }
 
 
@@ -130,8 +132,8 @@ h3 {
 .quote{
     text-align: center;
     color: #EDF5E1;
-    font-size: 250%;
-    width:50%;
+    font-size: 500%;
+    width:80%;
     justify-content: center;
     margin: auto;
 }
@@ -150,7 +152,7 @@ h3 {
     margin-top: 100px;
     color: #05386B;
     font-weight: bold;
-    font-size: 200%;
+    font-size: 260%;
     text-align: center;
     width:80%;
 }
@@ -393,6 +395,10 @@ footer p {
 @media (max-width:1000px) {
     .ins-info img {
         min-width: 400px;
+    }
+    .quote {
+        font-size: 250%;
+        width:50%;
     }
 }
 @media (max-width:700px){
