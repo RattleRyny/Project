@@ -257,9 +257,14 @@ hr {
     margin-top: 10px;
     margin-bottom: 15px;
 }
+.ins-info img  {
+    height:400px;
+    width:600px;
+    margin:auto;
+}
 .ins-info img {
-    width:30%;
-    height:500px;
+    width:600px;
+    height:400px;
     min-width: 401px;
 }
 .ins-info {
@@ -286,13 +291,6 @@ footer p {
     width:100%;
     text-align: center
 }
-@media (max-width:1600px) {
-    img {
-        width:50%;
-        height: 400px
-    }
-
-}
 @media (max-width:1400px) {
     .wrapper {
         flex-direction: column;
@@ -316,6 +314,11 @@ footer p {
     }
     .ins-titles {
         margin-bottom: 10px;
+    }
+    .ins-info img  {
+        height:300px;
+        width:500px;
+        margin:auto;
     }
     .ins-brief-info a {
         font-size: 100%;
@@ -374,11 +377,13 @@ footer p {
     .info h1 {
         font-size: 150%;        
     }
+    .ins-info img  {
+        height:400px;
+        width:600px;
+        margin:auto;
+    }
     .ins-info {
         flex-direction: column;
-    }
-    img{
-        margin:auto;
     }
     aside {
         margin: auto;
