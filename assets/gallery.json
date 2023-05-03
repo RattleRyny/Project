@@ -1,26 +1,26 @@
 [
     {
-        "url":"assets/pikassoGuitar.png",
+        "url":"../assets/pikassoGuitar.png",
         "caption":"Pikasso Guitar"
     },
     {
-        "url":"assets/toha.png",
+        "url":"../assets/toha.png",
         "caption":"Toha"
     },
     {
-        "url":"assets/theremin.png",
+        "url":"../assets/theremin.png",
         "caption":"Theremin"
     },
     {
-        "url":"assets/glassArmonica.png",
+        "url":"../assets/glassArmonica.png",
         "caption":"Glass Armonica"
     },
     {
-        "url":"assets/crwth.png",
+        "url":"../assets/crwth.png",
         "caption":"Crwth"
     },
     {
-        "url":"assets/hang.png",
+        "url":"../assets/hang.png",
         "caption":"Hang"
     }
 ]

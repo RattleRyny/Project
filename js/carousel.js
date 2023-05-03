@@ -4,7 +4,7 @@ var prev = document.getElementById('carouselPrev');
 var next = document.getElementById('carouselNext');
 
 
-fetch("/assets/carousel.json")
+fetch("../assets/carousel.json")
 
 
 .then(function(res) {

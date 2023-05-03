@@ -1,6 +1,6 @@
 var gallery = document.getElementById('gallery');
 
-fetch("/assets/gallery.json")
+fetch("../assets/gallery.json")
 
 .then(function(res) {
 
