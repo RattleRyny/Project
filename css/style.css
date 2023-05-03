@@ -447,7 +447,9 @@ footer p {
     h3 {
         font-size: 150%;
     }
-    
+    h1 {
+        font-size: 250%;
+    }
 }
 @media (max-width:350px) {
     .theQuote {
