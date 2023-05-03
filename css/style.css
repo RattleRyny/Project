@@ -254,6 +254,7 @@ hr {
     width:40%;
     margin:auto;
     margin-top: 10px;
+    margin-bottom: 15px;
 }
 .ins-info img {
     width:30%;
@@ -330,7 +331,7 @@ footer p {
         font-size: 200%;
         width:80%;
     }
-    p {
+    .wapper2 p {
         width:80%;
     }
 }
@@ -381,8 +382,9 @@ footer p {
     aside {
         margin: auto;
     }
-    p {
+    .wrapper2 p {
         font-size: 200%;
+        width:100%;
     }
     h3 {
         font-size: 250%;
@@ -390,9 +392,9 @@ footer p {
     }
 }
 @media (max-width:1000px) {
-    /* .ins-info img {
+    .ins-info img {
         min-width: 400px;
-    } */
+    }
 }
 @media (max-width:700px){
     .theQuote {
@@ -440,7 +442,7 @@ footer p {
     .ins-brief-info a {
         font-size: 70%;
     }
-    p {
+    .wrapper2 p {
         font-size: 100%;
     }
     h3 {
@@ -480,7 +482,7 @@ footer p {
     .ins-titles a{ 
         font-size: 100%;
     }
-    p {
+    .wrapper2 p {
         font-size:0%
     }
 }
