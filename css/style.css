@@ -441,7 +441,7 @@ footer p {
     }
     .ins-titles {
         margin-bottom: 7px;
-        font-size: 100%;
+        font-size: 70%;
         width:90%;
         padding-left: 0px;
     }
@@ -450,7 +450,7 @@ footer p {
         width:90%;
     }
     .ins-brief-info a {
-        font-size: 70%;
+        font-size: 50%;
     }
     .wrapper2 p {
         font-size: 100%;
