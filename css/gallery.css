@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1000px;
+    width: 100%;
     margin: auto;
   }
   
@@ -48,34 +48,3 @@
       width: 100%;
     }
   }
-  
-  
-  /* html, body {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    font-family: "Roboto", sans-serif;
-  }
-  
-  body::before {
-    position: absolute;
-    content: "Click on an image to open it in a new tab";
-    font-size: 0.8em;
-    margin-top: 10px;
-    color: #999;
-    width: 500px;
-    text-align: center;
-  } */
-  
-  /* @media(max-width: 600px) {
-    body::before {
-      background-color: rgba(0,0,0,0.5);
-      margin-top: 0px;
-      padding: 10px;
-      color: #fff;
-    }
-    .gallery {
-      margin-top: 35px;
-    }
-  } */

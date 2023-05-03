@@ -1,22 +1,26 @@
 [
     {
-        "url":"assets/img/img1.png",
-        "caption":"Acoustic Guitar: D-28 StreetLegend Martin"
+        "url":"assets/pikassoGuitar.png",
+        "caption":"Pikasso Guitar"
     },
     {
-        "url":"assets/img/img2.png",
-        "caption":"Piano: Steinway D-274"
+        "url":"assets/toha.png",
+        "caption":"Toha"
     },
     {
-        "url":"assets/img/img3.png",
-        "caption":"Horn: Alexander 103 Double Horn"
+        "url":"assets/theremin.png",
+        "caption":"Theremin"
     },
     {
-        "url":"assets/img/img4.png",
-        "caption":"Electric Guitar: 1959 Gibson Les Paul"
+        "url":"assets/glassArmonica.png",
+        "caption":"Glass Armonica"
     },
     {
-        "url":"assets/img/img5.png",
-        "caption":"Xylophone: Thomann MSPVT43 Marimba A=442"
+        "url":"assets/crwth.png",
+        "caption":"Crwth"
+    },
+    {
+        "url":"assets/hang.png",
+        "caption":"Hang"
     }
 ]
