@@ -9,6 +9,6 @@ burger.addEventListener('click', function() {
     }
     else {
         burgerMenuList.style.right = '-1000px';
-        burgerMenuList.style.display = 'block';
+        burgerMenuList.style.display = 'none';
     }
 });

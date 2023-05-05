@@ -43,6 +43,7 @@ h3 {
     padding-inline: 20px;
     border-radius: 4px;
     margin-bottom: 20px;
+    height:50px;
 }
 .button:hover {
     background-color: #275A8C;
@@ -291,6 +292,11 @@ footer p {
     width:100%;
     text-align: center
 }
+.video {
+    margin:auto;
+    display: block;
+}
+
 @media (max-width:1400px) {
     .wrapper {
         flex-direction: column;
